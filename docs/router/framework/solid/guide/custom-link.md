@@ -6,22 +6,22 @@ replace: { 'react-router': 'solid-router' }
 [//]: # 'BasicExampleImplementation'
 
 ```tsx
-import * as Solid from 'solid-js'
-import { createLink, LinkComponent } from '@tanstack/solid-router'
+import type { Component, JSX } from 'solid-js'
+import { createLink, type LinkComponent } from '@tanstack/solid-router'
 
-export const Route = createRootRoute({
-  component: RootComponent,
-})
-
-type BasicLinkProps = Solid.JSX.IntrinsicElements['a'] & {
+type BasicLinkProps = JSX.IntrinsicElements['a'] & {
   // Add any additional props you want to pass to the anchor element
 }
 
-const BasicLinkComponent: Solid.Component<BasicLinkProps> = (props) => (
-  <a {...props} class="block px-3 py-2 text-red-700">
-    {props.children}
-  </a>
-)
+const BasicLinkComponent: Component<BasicLinkProps> = (props) => {
+  const { class: className, ...rest } = props
+
+  return (
+    <a {...rest} class={`block px-3 py-2 text-red-700 ${className ?? ''}`.trim()}>
+      {props.children}
+    </a>
+  )
+}
 
 const CreatedLinkComponent = createLink(BasicLinkComponent)
 
