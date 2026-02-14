@@ -746,7 +746,7 @@ Optional path parameters provide a powerful and flexible foundation for implemen
 
 ## Allowed Characters
 
-By default, path params are escaped with `encodeURIComponent`. If you want to allow other valid URI characters (e.g. `@` or `+`), you can specify that in your [RouterOptions](../api/router/RouterOptionsType.md#pathparamsallowedcharacters-property).
+By default, path params are escaped with `encodeURIComponent`. If you want to allow other valid URI characters (e.g. `@` or `+`), you can specify that in your [RouterOptions](../../react/api/router/RouterOptionsType.md#pathparamsallowedcharacters-property).
 
 Example usage:
 
