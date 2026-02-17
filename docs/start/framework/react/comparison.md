@@ -27,7 +27,7 @@ Feature/Capability Key:
 
 |                                                                   | TanStack Start                                   | Next.js [_(Website)_][nextjs]                 | React Router [_(Website)_][react-router]   |
 | ----------------------------------------------------------------- | ------------------------------------------------ | --------------------------------------------- | ------------------------------------------ |
-| Github Repo / Stars                                               | [![][stars-tanstack-router]][gh-tanstack-router] | [![][stars-nextjs]][gh-nextjs]                | [![][stars-react-router]][gh-react-router] |
+| GitHub Repo / Stars                                               | [![][stars-tanstack-router]][gh-tanstack-router] | [![][stars-nextjs]][gh-nextjs]                | [![][stars-react-router]][gh-react-router] |
 | Bundle Size                                                       | [![][bp-tanstack-router]][bpl-tanstack-router]   | ❓                                            | ❓                                         |
 | --                                                                | --                                               | --                                            | --                                         |
 | **Routing Features** [_(See Full Comparison)_][router-comparison] | ✅ Built on TanStack Router                      | ✅ File-based App Router                      | ✅ File-based Nested Routes                |
