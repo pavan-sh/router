@@ -39,7 +39,7 @@ TanStack Start applications run in two environments:
 - **Node.js runtime** with access to file system, databases, environment variables
 - **During SSR** - Initial page renders on server
 - **API requests** - Server functions execute server-side
-- **Build time** - Static generation and pre-rendering
+- **Build time** - Static generation and prerendering
 
 ### Client Environment
 
