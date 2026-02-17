@@ -303,7 +303,7 @@ Let's break down how the different parts of our application work together:
 
 ## Step 6: Testing Your Application
 
-Now you can test your application by visiting [http://localhost:3000/fetch-movies](http://localhost:3000/fetch-movies). If everything is set up correctly, you should see a grid of popular movies with their posters, titles, and ratings. Your app should look like this:
+Now you can test your application by visiting `http://localhost:3000/fetch-movies`. If everything is set up correctly, you should see a grid of popular movies with their posters, titles, and ratings. Your app should look like this:
 
 ![Netflix style movie setup](https://res.cloudinary.com/dubc3wnbv/image/upload/v1756512946/Screenshot_2025-08-29_at_5.14.26_PM_iiex7o.png)
 
