@@ -22,7 +22,7 @@ SSR, Streaming, Server Functions, API Routes, bundling and more powered by [TanS
   <img alt="semantic-release" src="https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg">
 </a>
 <a href="https://github.com/TanStack/router/discussions">
-  <img alt="Join the discussion on Github" src="https://img.shields.io/badge/Github%20Discussions%20%26%20Support-Chat%20now!-blue" />
+  <img alt="Join the discussion on GitHub" src="https://img.shields.io/badge/GitHub%20Discussions%20%26%20Support-Chat%20now!-blue" />
 </a>
 <a href="https://bestofjs.org/projects/router">
   <img alt="Best of JS" src="https://img.shields.io/endpoint?url=https://bestofjs-serverless.now.sh/api/project-badge?fullName=tanstack%2Frouter%26since=daily" />
